@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Fortune Cookie Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+    <div class="nightsky">
+      <div class="moon"></div>
+      <div class="stars">
+        <div class="star" style="top:20%; left:30%;"></div>
+        <div class="star" style="top:40%; left:50%;"></div>
+        <div class="star" style="top:60%; left:70%;"></div>
+        <div class="star" style="top:80%; left:20%;"></div>
+        <div class="star" style="top:70%; left:30%;"></div>
+        <div class="star" style="top:30%; left:80%;"></div>
+      </div>
+    
+
+    <div class="screen1">
+      <h1>Welcome to your daily fortune cookie!</h1>
+      <p >
+        Open a cookie and discover a little surprise, inspiration, or fun message just for you.
+      <br>
+        Whether you're looking for motivation or a moment of joy, each fortune brings something special.
+      </p>
+      <img id="cookie1" src="./assets/cookie1.svg" alt="Image of a closed fortune cookie">
+    </div>
+
+    <div class="screen2 hide">
+      <h2>Here is your fortune for today:</h2>
+      <div class="fortune">
+        <p>Smile!</p>
+      </div>
+      <img id="cookie2" src="./assets/cookie2.svg" alt="Image of an opened fortune cookie"> 
+    </div>
+  </div>
+  </main>
+</body>
+</html>
